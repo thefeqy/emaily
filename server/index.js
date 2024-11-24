@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello Worlds!!!!!!');
+  res.send({message: 'This Is Deployed With CI/CD!'});
 });
 
 app.listen(5000, () => {
