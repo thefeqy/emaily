@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send({message: 'This Is Updated With CI/CD!'});
+  res.send({message: 'This is a change!'});
 });
 
 const PORT = process.env.PORT || 5000;
